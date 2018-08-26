@@ -11,7 +11,7 @@ class BlogShow extends Component {
     if (this.props.blog.imageUrl) {
       return (
         <img
-          alt="you fucking image"
+          alt="you fucking uploaded shit"
           src={
             'https://s3.us-east-2.amazonaws.com/nodeci-blogs-bucket/' +
             this.props.blog.imageUrl
